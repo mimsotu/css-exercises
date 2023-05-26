@@ -1,15 +1,29 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.plants {
+
+  display: flex;
+  margin-top: 32px;
+  gap: 52px;
+}
+
+.barberry .chilli .pepper .saffron {
+  max-width: 200px;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
